@@ -8,4 +8,4 @@ https://www.claflin.edu/academics-research/schools-departments/school-of-natural
 Atrial-Fibrillation-Neural-Networks: Electrocardiography/ECG data read, Test-Train Split, Neural, plotting, noise removal, Convolution 2D network training, confusion matrix, accuracy, sensitivity, specificity, precision, recall, confusion matrix, log-loss, and area under curve and receiver operating characteristic, AUC-ROC evaluation.
 selected function(pd.read_csv, plt.figure, plt.Circle, plt.pie,plot_hist, add_gaussian_noise, Model, model.fit, evaluate_model, network, confusion_matrix, model.predict, model.load_weights, model.compile).
 
-table(testing$V2,pred_test) Prediction_test alive dead alive 214 5 dead 31 11 ((214+11)/(nrow(testing)))*100 [1] 86.2069.
+Testing: table(testing$V2,pred_test) Prediction_test alive dead alive 214 5 dead 31 11 ((214+11)/(nrow(testing)))*100 [1] 86.2069.
