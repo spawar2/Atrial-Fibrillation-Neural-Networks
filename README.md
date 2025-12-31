@@ -7,7 +7,7 @@ https://www.claflin.edu/academics-research/schools-departments/school-of-natural
 Atrial fibrillation (Afib) is an irregular heart rhythm that begins in your heart's upper chambers (atria). Symptoms include fatigue, heart palpitations, trouble breathing and dizziness. Afib is one of the most common arrhythmias. Risk factors include high blood pressure, coronary artery disease and having obesity.
 Atrial-Fibrillation-Neural-Networks: Electrocardiography/ECG data read, Test-Train Split, Neural, plotting, noise removal, Convolution Neural 2D network training, confusion matrix, accuracy, sensitivity, specificity, precision, recall, confusion matrix, log-loss, and area under curve and receiver operating characteristic, AUC-ROC evaluation.
 selected function(pd.read_csv, plt.figure, plt.Circle, plt.pie,plot_hist, add_gaussian_noise, Model, model.fit, evaluate_model, network, confusion_matrix, model.predict, model.load_weights, model.compile).
-
+Accuracy (3, 5, 10 Fold similar values).
 Testing: table(testing$V2,pred_test) Prediction_test alive dead alive 214 5 dead 31 11 ((214+11)/(nrow(testing)))*100 [1] 86.2069.
 
 
