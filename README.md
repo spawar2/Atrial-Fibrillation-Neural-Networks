@@ -9,7 +9,7 @@ Atrial-Fibrillation-Neural-Networks: Electrocardiography/ECG data read, Test-Tra
 selected function(pd.read_csv, plt.figure, plt.Circle, plt.pie,plot_hist, add_gaussian_noise, Model, model.fit, evaluate_model, network, confusion_matrix, model.predict, model.load_weights, model.compile).
 Accuracy (3, 5, 10 Fold similar values).
 Testing: table(testing$V2,pred_test) Prediction_test alive dead alive 214 5 dead 31 11 ((214+11)/(nrow(testing)))*100 [1] 86.2069.
-
+Evaluation metrics:
 	•	Accuracy (3, 5, 10 Fold similar values), precision0.7817164179104478
 	•	recall0.73325
 	•	f1-score0.7567079463364293
